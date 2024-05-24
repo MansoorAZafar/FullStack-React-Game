@@ -19,9 +19,9 @@ export default function DisplayLite({ item }) {
     const category = `category: ${item.category}`;
 
     const handleClick = () => {
-        if (history && history.length >= 5 && !history.includes(item.name)) {
+        if (history && history.length >= 5) {
             history.shift();
-        } else if (history) {
+        } else if (history && !history.includes(item.name)) {
             addHistory([...history, item.name]);
         }
         router.push(`/details/${item.name}`);
