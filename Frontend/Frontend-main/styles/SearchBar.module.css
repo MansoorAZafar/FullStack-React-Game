@@ -1,0 +1,39 @@
+/* SearchBar.module.css */
+.search-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    margin-left: 2vh;
+    margin-right: 4vh;
+    border: 5px solid rgba(255, 255, 255, 0.221);
+}
+
+.search-input {
+    padding: 1vh;
+    font-size: 16px;
+    background-color: #cccccc00;
+    color: white;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc; /* Add border bottom */
+    flex-grow: 1; /* Use flex-grow to expand input to fill available space */
+    margin-right: 1vh; /* Add some margin between input and button */
+}
+
+.search-button {
+    padding: 8px 20px; /* Reduce padding for smaller button */
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: #cccccc6c;
+    color: #fff;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+.search-button:hover {
+    opacity: 0.8;
+}
