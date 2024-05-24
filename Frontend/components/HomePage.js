@@ -16,7 +16,11 @@ export default function HomePage() {
     };
 
     const showInstructions = () => {
-        setInstructions("Navigate the 2D grid with WASD, battle enemies, and find treasures in this MERN stack game. Buy items, manage inventory, and Wishlist.");
+        if (instructions) {
+            setInstructions("");
+        } else {
+            setInstructions("Navigate with WASD. Blue circle: player. Black tiles: walls. Red tile: enemy. Combat is turn-based until either yours or their HP reaches 0. Green box: new room. Brown-red box: chest with items.");
+        }
     };
 
     return (
@@ -28,10 +32,11 @@ export default function HomePage() {
                 <Button variant="primary" size="lg" style={{ marginTop: "15px" }} onClick={handleRegister}>
                     Register
                 </Button>
+                <br />
                 <Button variant="primary" size="lg" style={{ marginTop: "15px" }} onClick={showInstructions}>
                     Instructions
                 </Button>
-                <br/>
+                <br />
                 <p>{instructions}</p>
             </div>
         </div>
