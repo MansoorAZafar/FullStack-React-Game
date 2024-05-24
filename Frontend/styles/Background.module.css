@@ -1,0 +1,10 @@
+/* Background.module.css */
+.background {
+    background-image: url('https://images.unsplash.com/photo-1509226704106-8a5a71ffbfa4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover; /* Cover ensures the image covers the entire container */  
+    background-position: center; /* Center the background image */
+    height: 92vh; /* Set the height to cover the entire viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
