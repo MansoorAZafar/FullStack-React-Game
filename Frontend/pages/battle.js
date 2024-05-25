@@ -12,7 +12,7 @@ const BattlePage = () => {
   }, []);
 
   return (
-    <div className={styles.container}>
+    <div className={styles.container} style={{height: "100vh"}}>
         <div className={styles.cardContainerRegister}>
           <div className={styles.card}>
             
