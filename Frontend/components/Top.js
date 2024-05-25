@@ -33,7 +33,7 @@ export default function Top() {
             {[false].map((expand) => (
                 <Navbar key={expand} expand={expand} className="navbar-dark bg-dark"> 
                     <Container fluid>
-                        <Navbar.Brand as={Nav.Link} onClick={() => router.push('/')}>Simple Adventures</Navbar.Brand>
+                        <Navbar.Brand as={Nav.Link} onClick={() => router.push('/')}>Mini Quest</Navbar.Brand>
                         {isClient && localStorage.getItem('token') && <Navbar.Text as={Nav.Link} onClick={() => router.push('/worldPage')}>Play</Navbar.Text>}
                         {isClient && localStorage.getItem('token') && <Navbar.Text>${money}</Navbar.Text> }
                         <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
