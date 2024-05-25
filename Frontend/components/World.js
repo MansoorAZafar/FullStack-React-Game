@@ -107,26 +107,28 @@ export default function World() {
     const handleMove = (dx, dy) => {
         const newX = playerPosition.x + dx;
         const newY = playerPosition.y + dy;
-        
-        // Check if the new position is within the boundaries and not a wall
+    
         if (newX >= 0 && newX < GRID_WIDTH && newY >= 0 && newY < GRID_HEIGHT && currGrid[newY][newX] === TILE_TYPES.WALKABLE) {
             setPlayerPosition({ x: newX, y: newY });
         }
         else if (newX >= 0 && newX < GRID_WIDTH && newY >= 0 && newY < GRID_HEIGHT && currGrid[newY][newX] === TILE_TYPES.ENCOUNTER) {
-            router.push('/battle')
+            router.push('/battle');
         }
         else if (newX >= 0 && newX < GRID_WIDTH && newY >= 0 && newY < GRID_HEIGHT && currGrid[newY][newX] === TILE_TYPES.ROOM1) {
-            setPlayerPosition({x: 1, y: 3})
-            setWorldGrid(chestGrid)
+            setPlayerPosition({ x: 1, y: 3 });
+            setWorldGrid(chestGrid);
         }
         else if (newX >= 0 && newX < GRID_WIDTH && newY >= 0 && newY < GRID_HEIGHT && currGrid[newY][newX] === TILE_TYPES.ROOM2) {
-            setWorldGrid(worldGrid)
-            setPlayerPosition({x: 1, y: 1})
+            setWorldGrid(worldGrid);
+            setPlayerPosition({ x: 1, y: 1 });
         }
         else if (newX >= 0 && newX < GRID_WIDTH && newY >= 0 && newY < GRID_HEIGHT && currGrid[newY][newX] === TILE_TYPES.chest) {
+            const amt = Math.floor(Math.random() * 5) + 1;
+            setAmount(amt); // Set the amount before showing the popup
             setShowPopup(true);
         }
     };
+
 
     /*
 useEffect(() => {
@@ -137,10 +139,7 @@ useEffect(() => {
 
     */
     const Popup = () => {
-        
         const handleExitClick = async () => {
-            const amt = Math.floor(Math.random() * 5) + 1;
-            setAmount(amt); // Set the amount in state
             setShowPopup(false);
             const token = localStorage.getItem('token');
             fetch(
@@ -150,20 +149,21 @@ useEffect(() => {
                         'Content-Type': 'application/json',
                         'Authorization': `Bearer ${token}` // Include the JWT token in the headers
                     },
-                    body: JSON.stringify({ money: amt }),
+                    body: JSON.stringify({ money: amount }), // Use the already set amount
             });
-            addMoney(money + amt);
+            addMoney(money + amount);
         };
     
         return (
             <div className={styles['popupBackdrop']}>
                 <div className={styles['popup']}>
-                    <p>You got ${amount > 0 && amount}!</p>
+                    <p>You got ${amount}!</p>
                     <button onClick={handleExitClick}>Close</button>
                 </div>
             </div>
         );
     };
+
 
     // Handle key press events for player movement
     const handleKeyPress = (e) => {
