@@ -137,7 +137,7 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/MansoorAZafar/FullStack-React-Game/blob/6d6276cc8467ae0fc0ddfe8fa4a56fe5ffbb09a5/LICENSE.txt) file for details.
 
 ## Contact
 
