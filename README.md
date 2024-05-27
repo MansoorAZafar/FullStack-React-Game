@@ -1,6 +1,6 @@
 <p align="center" style="margin-bottom: 0;">
   <a href="https://frontend-full-stack-react-game.vercel.app/">
-    <img src="https://raw.githubusercontent.com/MansoorAZafar/FullStack-React-Game/main/Frontend/public/Logo.png" 
+    <img src="https://raw.githubusercontent.com/MansoorAZafar/FullStack-React-Game/main/Frontend/public/Logo%20(1).png" 
       alt="Gameplay Screenshot" width="600" />
     <br><br><strong>https://frontend-full-stack-react-game.vercel.app/</strong></a></p>
   </a>
