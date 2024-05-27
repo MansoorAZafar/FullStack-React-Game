@@ -31,14 +31,31 @@ Upon collecting money from chests, you can visit the shop to purchase items and 
 ### Screenshots
 
 <details>
-  <summary>Images</summary>
+  <summary>Screenshots</summary>
   
-  ![Gameplay Screenshot 1](https://example.com/image1.png)
+  ![Screenshot 2024-05-26 232956](https://github.com/MansoorAZafar/FullStack-React-Game/assets/164381371/304166eb-72d1-4383-a1d5-67ff1fdbc9d5)
+
+  ![Screenshot 2024-05-26 232942](https://github.com/MansoorAZafar/FullStack-React-Game/assets/164381371/451bb25f-fbac-476f-8c7d-9fbba0753d59)
+
+  ![Screenshot 2024-05-26 232844](https://github.com/MansoorAZafar/FullStack-React-Game/assets/164381371/fc5eeff8-542d-433b-8465-e0618b132d31)
+
+  ![Screenshot 2024-05-26 232827](https://github.com/MansoorAZafar/FullStack-React-Game/assets/164381371/fc7005c5-fe03-4878-af4a-b1f5e290034b)
+
+  ![Screenshot 2024-05-26 232820](https://github.com/MansoorAZafar/FullStack-React-Game/assets/164381371/0c572c36-d76e-4995-ad1b-0b0e53bc1706)
+
+  ![Screenshot 2024-05-26 232813](https://github.com/MansoorAZafar/FullStack-React-Game/assets/164381371/63ac46eb-00fe-4f82-bef5-5517c6e7d146)
   
-  ![Gameplay Screenshot 2](https://example.com/image2.png)
-  
-  ![Gameplay Screenshot 3](https://example.com/image3.png)
-  
+  ![Screenshot 2024-05-26 232806](https://github.com/MansoorAZafar/FullStack-React-Game/assets/164381371/949d8478-ce4e-4569-9602-253ed93c6e31)
+
+  ![Screenshot 2024-05-26 232758](https://github.com/MansoorAZafar/FullStack-React-Game/assets/164381371/846d1fe3-804a-4db1-b3b9-47a9fc91ab20)
+
+  ![Screenshot 2024-05-26 232754](https://github.com/MansoorAZafar/FullStack-React-Game/assets/164381371/f6b7a84a-9045-42f1-ad78-54fba7e39d6c)
+
+  ![Screenshot 2024-05-26 232741](https://github.com/MansoorAZafar/FullStack-React-Game/assets/164381371/18e1b942-7023-476f-9733-3e468f107bb2)
+
+  ![Screenshot 2024-05-26 232730](https://github.com/MansoorAZafar/FullStack-React-Game/assets/164381371/f3323054-9847-4746-a4a6-81d650e7fda6)
+
+  ![Screenshot 2024-05-26 232640](https://github.com/MansoorAZafar/FullStack-React-Game/assets/164381371/3576ce2c-d1cf-4030-94a5-818c50f45941)
 </details>
 
 ## Getting Started
