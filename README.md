@@ -78,7 +78,7 @@ No installation is required. Simply visit the [Mini Quest website](https://front
 
 ### Known Issues
 
-- **Login Delay:** Initial login/authentication may take ~10-15 seconds due to backend hosting on Render. This delay will improve with more usage.
+- **Login Delay:** Initial login/authentication may take ~10-35 seconds due to backend hosting on Render. This delay will improve with more usage.
 
 ## Running Locally
 
