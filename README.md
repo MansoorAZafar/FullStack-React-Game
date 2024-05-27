@@ -8,7 +8,7 @@
 
 # Mini Quest
 
-**Mini Quest** is a web-based, free rogue-like 2D short game. Developed by [@Mansoor-A-Zafar](https://github.com/Mansoor-A-Zafar) using JavaScript, React, Jotai, Bootstrap, SWR, Node.js, Express, MongoDB, and CSS.
+**Mini Quest** is a web-based, free rogue-like 2D short game. Developed by [@MansoorAZafar](https://github.com/MansoorAZafar) using JavaScript, React, Jotai, Bootstrap, SWR, Node.js, Express, MongoDB, and CSS.
 
 ## Features
 
@@ -88,7 +88,7 @@ If you want to run Mini Quest locally, follow these instructions:
 
 ## Contributing
 
-Contributions are welcome! If you have suggestions for improvements or new features, please submit an issue or a pull request on the [GitHub repository](https://github.com/Mansoor-A-Zafar/FullStack-React-Game).
+Contributions are welcome! If you have suggestions for improvements or new features, please submit an issue or a pull request on the [GitHub repository](https://github.com/MansoorAZafar/FullStack-React-Game).
 
 ## License
 
@@ -96,7 +96,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or feedback, feel free to reach out to [@Mansoor-A-Zafar](https://github.com/Mansoor-A-Zafar).
+For any questions or feedback, feel free to reach out to [@MansoorAZafar](https://github.com/MansoorAZafar).
 
 ---
 
