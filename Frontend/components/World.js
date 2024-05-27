@@ -71,7 +71,7 @@ export default function World() {
         backgroundColor = 'green'
         break;
         case TILE_TYPES.chest:
-        backgroundColor = 'brown'
+        backgroundColor = 'rgb(113 63 18)'
         break;
         default:
         backgroundColor = 'black';
