@@ -58,7 +58,8 @@ const BattleSimulator = () => {
 
     if (monsterAttack > playerDefense) {
       const damage = monsterAttack - playerDefense;
-      setPlayerHealth(playerHealth - damage);
+      const playerDamage = playerHealth - damage <= 0 ? 0 : playerHealth - damage;
+      setPlayerHealth(playerDamage);
       setBattleMessage(`The monster dealt ${damage} damage to you.`);
     } else {
       setBattleMessage(`You defended against the monster's attack.`);
