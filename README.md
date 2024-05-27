@@ -24,7 +24,7 @@ You control the blue circle, navigating through the grid using the WASD keys. Th
 - **Blue Circle:** Player
 - **Red Block:** Encounter an Enemy
 - **Green Block:** Gateway to the next room
-- **Brown-Redish Block:** Chest containing money
+- **Brown Block:** Chest containing money
 
 Upon collecting money from chests, you can visit the shop to purchase items and enhance your character's abilities.
 
