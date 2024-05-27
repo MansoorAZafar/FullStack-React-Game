@@ -30,7 +30,16 @@ Upon collecting money from chests, you can visit the shop to purchase items and 
 
 ### Screenshots
 
-*(Screenshots will be added here)*
+<details>
+  <summary>Images</summary>
+  
+  ![Gameplay Screenshot 1](https://example.com/image1.png)
+  
+  ![Gameplay Screenshot 2](https://example.com/image2.png)
+  
+  ![Gameplay Screenshot 3](https://example.com/image3.png)
+  
+</details>
 
 ## Getting Started
 
