@@ -110,7 +110,26 @@ No installation is required. Simply visit the [Mini Quest website](https://front
 
 If you want to run Mini Quest locally, follow these instructions:
 
-*(Instructions will be added here)*
+## Running the Project Locally
+
+To run this project locally, you'll need to start both the Frontend and Backend. Follow these steps:
+
+### Frontend
+
+In the **Frontend** directory, run:
+
+```bash
+>>> `npm run dev`
+```
+This will start the application in development mode. Open https://localhost:3000 in your browser to view it.
+
+Backend
+In the Backend directory, run:
+
+```bash
+>>> `node index.js`
+```
+This will start the backend server. Open https://localhost8080 in your browser to view it.
 
 ## Contributing
 
