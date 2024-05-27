@@ -22,7 +22,7 @@
 
 You control the blue circle, navigating through the grid using the WASD keys. The objective is to traverse the grid, avoid or battle enemies, find treasures, and progress through rooms. Each element on the grid has a specific color for easy identification:
 - **Blue Circle:** Player
-- **Red Block:** Enemy
+- **Red Block:** Encounter an Enemy
 - **Green Block:** Gateway to the next room
 - **Brown-Redish Block:** Chest containing money
 
@@ -37,7 +37,7 @@ Upon collecting money from chests, you can visit the shop to purchase items and 
 ### Prerequisites
 
 To play Mini Quest, you need:
-- A modern web browser (Chrome, Firefox, Safari, Edge)
+- A modern web browser (Chrome, Firefox, Safari, Edge, Brave)
 - An internet connection
 
 ### Installation
