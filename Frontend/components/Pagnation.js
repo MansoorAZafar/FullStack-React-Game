@@ -24,13 +24,19 @@ export default function Pagnation({ items }) {
         const length = Math.ceil(items.length / itemsPerPage);
         const buttons = [];
         for (let i = 0; i < length; ++i) {
-            buttons.push(
-                <li key={i}>
-                    <button className={styles["pagination-button"]} onClick={() => setCurrentPage(i)}>
-                        {i + 1}
+            const buttonSet = [];
+            for (let j = 0; j < 4 && i * 4 + j < length; j++) {
+                buttonSet.push(
+                    <button
+                        key={i * 4 + j}
+                        className={styles["pagination-button"]}
+                        onClick={() => setCurrentPage(i * 4 + j)}
+                    >
+                        {i * 4 + j + 1}
                     </button>
-                </li>
-            );
+                );
+            }
+            buttons.push(<li key={i}>{buttonSet}</li>);
         }
         return buttons;
     };
