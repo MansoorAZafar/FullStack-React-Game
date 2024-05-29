@@ -74,6 +74,7 @@ Upon collecting money from chests, you can visit the shop to purchase items and 
 
 To play Mini Quest, you need:
 - A modern web browser (Chrome, Firefox, Safari, Edge, Brave)
+- A PC
 - An internet connection
 
 ### Installation
