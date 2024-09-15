@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require("express");
 const cors = require("cors");
 const dataService = require("./auth-server.js");
@@ -15,7 +16,7 @@ let JwtStrategy = passportJWT.Strategy;
 // Configure its options
 let jwtOptions = {
   jwtFromRequest: ExtractJwt.fromAuthHeaderWithScheme('jwt'),
-  secretOrKey: '&0y7$noP#5rt99&GB%Pz7j2b1vkzaB0RKs%^N^0zOP89NT04mPuaM!&G8cbNZOtH',
+  secretOrKey: process.env.SECRETKEY,
 };
 
 // IMPORTANT - this secret should be a long, unguessable string
