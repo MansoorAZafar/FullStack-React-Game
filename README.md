@@ -6,9 +6,9 @@
   </a>
 </p>
 
-# Mini Quest: Embark on a Rogue-like Adventure! 
+# Mini Quest: Embark on a Rogue-lite Adventure! 
 
-**Mini Quest** is a free, web-based rogue-like 2D short game ⚔️ using a powerful tech stack:
+**Mini Quest** is a free, web-based Rogue-lite 2D short game ⚔️ using a powerful tech stack:
 - JavaScript ✨
 - React 
 - Jotai (State Management) 
